@@ -15,7 +15,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/leanprover/lean/releases/download/v$version/lean-$version-windows.zip",
+    "url": "https://github.com/leanprover-community/lean/releases/download/v$version/lean-$version-windows.zip",
     "extract_dir": "lean-$version-windows",
     "hash": ""
   }

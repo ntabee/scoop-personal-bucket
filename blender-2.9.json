@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://builder.blender.org/download/blender-2.90-2deb6c517787-windows64.zip",
             "hash": "",
-            "extract_dir": "blender-2.9-windows64"
+            "extract_dir": "blender-2.90-2deb6c517787-windows64.zip"
         }
     },
     "bin": "blender.exe",
@@ -19,14 +19,14 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.blender.org/download/",
+        "url": "https://builder.blender.org/download/",
         "regex": "blender-([\\w.]+)-windows64\\.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://builder.blender.org/download/blender-2.90-$version-windows64.zip",
-                "extract_dir": "blender-2.90-windows64"
+                "extract_dir": "blender-2.90-$version-windows64.zip"
             }
         },
         "hash": {

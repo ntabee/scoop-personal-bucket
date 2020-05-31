@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://builder.blender.org/download/",
-        "regex": "blender-([\\w.]+)-windows64\\.zip"
+        "regex": "blender-2.90-([\\w.]+)-windows64\\.zip"
     },
     "autoupdate": {
         "architecture": {
